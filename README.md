@@ -21,7 +21,7 @@ git clone https://github.com/Camilomora117/Taller1-AREP.git
 Una vez descargado el repositorio nos dirigimos al directorio raiz del proyecto y ejecutamos el comando:
 
 ```
-mvn clean package exec:java -D "exec.mainClass"="edu.escuelaing.arem.ASE.app.HttpServer"
+mvn exec:java
 ```
 
 Finalmente ingrese al navegador de su preferencia y usamos el link (El cual es el localhost que corre por el puerto 35000):
